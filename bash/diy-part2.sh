@@ -24,4 +24,4 @@ rm -rf package/feeds/luci/luci-theme-argon-mod
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/feeds/luci/luci-theme-argon
 
 rm package/base-files/files/etc/banner
-wget https://github.com/bXZb/release/raw/main/etc/banner -O package/base-files/files/etc/banner
+wget https://raw.githubusercontent.com/bXZb/router/master/bash/banner -O package/base-files/files/etc/banner

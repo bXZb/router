@@ -10,4 +10,5 @@ sed -i 's/KERNEL_TESTING_PATCHVER:=5.15/KERNEL_TESTING_PATCHVER:=6.1/g' target/l
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
-echo 'src-git tailscale https://github.com/asvow/luci-app-tailscale.git' >>feeds.conf.default
+
+git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale

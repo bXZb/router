@@ -21,7 +21,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/vpn.dns.config
-  DIY_P1_SH: depends/diy-part3.sh
+  DIY_P1_SH: depends/diy-part1.sh
   DIY_P2_SH: depends/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true

@@ -14,9 +14,6 @@ rm -rf package/feeds/luci/luci-theme-argon-mod
 # luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/feeds/luci/luci-theme-argon
 
-rm package/feeds/helloworld/hysteria/Makefile
-wget https://raw.githubusercontent.com/bXZb/router/master/depends/Makefile -O package/feeds/helloworld/hysteria/Makefile
-
 rm package/base-files/files/etc/banner
 wget https://raw.githubusercontent.com/bXZb/router/master/depends/banner -O package/base-files/files/etc/banner
 

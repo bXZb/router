@@ -74,7 +74,7 @@ jobs:
         sudo -E apt-get -qq clean
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /home/compile_workdir
-        sudo chown $USER:/home/compile_workdir
+        sudo chown $USER:$GROUPS /home/compile_workdir
 
     - name: Clone source code
       working-directory: /home/compile_workdir
